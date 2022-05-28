@@ -21,17 +21,19 @@ A javascript object is a collection of named values.
 
 There are different ways to create new objects:
 
-Create a single object, using an object literal.
-Create a single object, with the keyword new.
-Define an object constructor, and then create objects of the constructed type.
-Create an object using Object.create().
+1. Create a single object, using an object literal.  
+2. Create a single object, with the keyword new.
+3. Define an object constructor, and then create objects of the constructed type.
+4. Create an object using Object.create().
 
 ## Using an Object Literal
 An object literal is a list of name:value pairs inside curly braces {}.
+
 e.g const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 
 ## Using the JavaScript Keyword new
 const person = new Object();
+
   person.firstName = "John";
   person.lastName = "Doe";
   person.age = 50;
@@ -40,6 +42,7 @@ const person = new Object();
 
 ## JavaScript Object Constructors
 function Person (name,surname,age,city) {
+  
   this.firstname = name;
   this.surname = surname;
   this.age = age;
