@@ -50,28 +50,22 @@ const person = new Object();
 
 
 
-## Built With
 
-- Javascript
 
-## Getting Started
 
-To clone this project:
-- Go to github project repository
-- Click on the green button(known as code)
-- Copy the ssh link
-- on your local machine, type the command git clone link
 
-### Prerequisites
-- Code editor
-- Knowledge in Javascript
-- Git
 
-### Install
-- No Installation is required
 
-### Usage
-- Make changes to the files and submit pull requests
+
+
+
+
+
+
+
+
+
+
 
 ## Authors
 
