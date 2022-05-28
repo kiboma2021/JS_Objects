@@ -35,18 +35,25 @@ e.g const person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
 const person = new Object();
 
   person.firstName = "John";
+
   person.lastName = "Doe";
+
   person.age = 50;
+  
   person.eyeColor = "blue";
 
 
 ## JavaScript Object Constructors
 function Person (name,surname,age,city) {
-  
+
   this.firstname = name;
+
   this.surname = surname;
+
   this.age = age;
+
   this.town = city;
+
 }
 
 ## Authors
