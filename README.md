@@ -39,33 +39,12 @@ const person = new Object();
 
 
 ## JavaScript Object Constructors
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function Person (name,surname,age,city) {
+  this.firstname = name;
+  this.surname = surname;
+  this.age = age;
+  this.town = city;
+}
 
 ## Authors
 
